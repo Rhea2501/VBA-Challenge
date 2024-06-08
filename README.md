@@ -5,7 +5,8 @@
  Used Stack Overflow for this part of the code: Xpert and Chat GPT 4.o for this part of the code: 
 
    
- "    outputRow = 2
+     outputRow = 2
+     
    ' Loop through each worksheet
     For Each ws In Worksheets
         If ws.Name <> "Summary_Data" Then
@@ -69,4 +70,4 @@
             wsSummary.Cells(outputRow, 4).Value = totalStockVolume
         End If
     Next ws
-End Sub"
+End Sub
